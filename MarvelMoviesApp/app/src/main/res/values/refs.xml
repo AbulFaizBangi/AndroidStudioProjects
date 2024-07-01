@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="iron_man" type="drawable">@drawable/iron_man</item>
+    <item name="captain_america" type="drawable">@drawable/captain_america</item>
+    <item name="hulk" type="drawable">@drawable/hulk</item>
+    <item name="infinity_war" type="drawable">@drawable/infinity_war</item>
+    <item name="endgame" type="drawable">@drawable/endgame</item>
+</resources>

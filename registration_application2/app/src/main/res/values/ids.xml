@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewSubject" type="id" />
+    <item name="textViewGender" type="id" />
+    <item name="textViewQualification" type="id" />
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExplicitIntentExample</string>
+    <string name="welcome">Welcome!</string>
+    <string name="greet">Greet</string>
+    <string name="greeting">Greeting</string>
+    <string name="next">Next</string>
+    <string name="enter_your_name">Enter your name</string>
+</resources>

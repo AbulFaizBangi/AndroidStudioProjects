@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IntentExample</string>
+    <string name="_1_download_install_and_configure_eclipse_android_studio_on_linux_windows_platform">1. Download Install and Configure Eclipse / Android Studio on Linux/windows platform.</string>
+    <string name="_2_design_a_mobile_application_using_implicit_intent_and_explicit_intent">2. Design a mobile application using implicit intent and explicit intent</string>
+    <string name="_3_design_a_mobile_application_to_create_two_fragment_and_pass_the_data_from_one_fragment_to_another">3. Design a mobile application to create two fragment and pass the data from one fragment to another</string>
+    <string name="_4_design_a_mobile_application_to_create_home_page_using_grid_layout">4. Design a mobile application to create home page using grid layout</string>
+    <string name="trigger_explicit_intent">Trigger Explicit Intent</string>
+    <string name="result_of_explicit_intent">Result of Explicit Intent:</string>
+</resources>

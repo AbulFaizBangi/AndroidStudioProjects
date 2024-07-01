@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="subjects_array">
+        <item>Subject 1</item>
+        <item>Subject 2</item>
+        <item>Subject 3</item>
+        <!-- Add more subjects as needed -->
+    </string-array>
+</resources>
