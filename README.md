@@ -139,4 +139,4 @@ This repository is licensed under the MIT License. See the `LICENSE` file for mo
 
 ## Contact
 
-For feedback or inquiries, please contact **Abul Faiz Bangi** at [your-email@example.com].
+For feedback or inquiries, please contact **Abul Faiz Bangi** at [bangiabul6699@gmail.com].
