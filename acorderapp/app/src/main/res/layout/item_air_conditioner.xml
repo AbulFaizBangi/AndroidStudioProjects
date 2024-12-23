@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/item_background"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:backgroundTint="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/air_conditioner_image" />
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Air Conditioner"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/itemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹30000"
+        android:textSize="16sp"
+        android:textColor="#388E3C"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="-"
+            android:backgroundTint="#FFC107"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="0"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="+"
+            android:backgroundTint="#FFC107"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>

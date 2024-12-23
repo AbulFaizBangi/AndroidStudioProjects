@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="order_reception">Order Reception</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="submit_order">Submit Order</string>
+    <string name="select_ac_unit" />
+    <string name="item_name">This is the name of the Product\n</string>
+</resources>

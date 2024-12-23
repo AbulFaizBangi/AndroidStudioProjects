@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="ac_unit_array">
+        <item>BrandA ModelX</item>
+        <item>BrandB ModelY</item>
+        <!-- Add more AC unit options -->
+    </string-array>
+</resources>

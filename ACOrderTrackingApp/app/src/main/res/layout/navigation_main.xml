@@ -1,0 +1,69 @@
+<?xml version="1.0" android:encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.acordertrackingapp.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_home_to_inventoryFragment"
+            app:destination="@id/inventoryFragment" />
+
+        <action
+            android:id="@+id/action_home_to_ordersFragment"
+            app:destination="@id/ordersFragment" />
+
+        <action
+            android:id="@+id/action_home_to_taskAssignmentDashboardFragment"
+            app:destination="@id/taskAssignmentDashboardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/inventoryFragment"
+        android:name="com.example.acordertrackingapp.InventoryFragment"
+        android:label="Inventory"
+        tools:layout="@layout/fragment_inventory">
+
+        <action
+            android:id="@+id/action_inventory_to_orderReceptionActivity"
+            app:destination="@id/orderReceptionActivity" />
+    </fragment>
+
+    <activity
+        android:id="@+id/orderReceptionActivity"
+        android:name="com.example.acordertrackingapp.OrderReceptionActivity"
+        android:exported="false">
+        <argument
+            android:name="orderId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </activity>
+
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.example.acordertrackingapp.OrdersFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_orders">
+
+        <action
+            android:id="@+id/action_orders_to_orderReceptionActivity"
+            app:destination="@id/orderReceptionActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/taskAssignmentDashboardFragment"
+        android:name="com.example.acordertrackingapp.TaskAssignmentDashboardFragment"
+        android:label="Task Assignment Dashboard"
+        tools:layout="@layout/fragment_task_assignment_dashboard">
+
+        <action
+            android:id="@+id/action_task_assignment_to_orderReceptionActivity"
+            app:destination="@id/orderReceptionActivity" />
+    </fragment>
+</navigation>

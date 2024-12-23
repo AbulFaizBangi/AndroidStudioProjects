@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <color android:name="primary_color"
+        tools:ignore="ExtraText">#1976D2</color>
+    <color android:name="primary_dark">#1565C0</color>
+    <color android:name="accent_color">#FFC107</color>
+    <color android:name="background_color">#F5F5F5</color>
+    <color android:name="primary_text">#212121</color>
+    <color android:name="secondary_text">#757575</color>
+</resources>
+
